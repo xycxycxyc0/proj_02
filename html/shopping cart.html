@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>城星购物车</title>
+    <link rel="shortcut icon" href="../favicon.ico"/>
+    <link rel="stylesheet" href="../css/shopping cart.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../js/shop_cart.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="w">
+            <ul class="nav_ul1">
+                <li><a href="../index.html"><i class="home-icon"></i> 城星首页</a></li>
+                <li>
+                    配送到：
+                    <select name="" id="">
+                        <option value="">广东</option> 
+                        <option value="">上海</option> 
+                        <option value="">北京</option> 
+                        <option value="">重庆</option> 
+                    </select> 
+                </li>
+            </ul>
+            <ul class="nav_ul2">
+                <li  class="arrow-icon" id="userName"><a href="personal information.html">星城 </a><span>|</span></li>
+                <li><a href="#">我的订单</a><span>|</span></li>
+                <li class="arrow-icon"><a href="#">我的城星 </a><span>|</span></li>
+                <li><a href="#">城星会员</a><span>|</span></li>
+                <li class="arrow-icon"><a href="#">企业采购 </a><span>|</span></li>
+                <li class="arrow-icon"><a href="#">关注城星 </a><span>|</span></li>
+                <li class="arrow-icon"><a href="#">客户服务 </a><span>|</span></li>
+                <li class="arrow-icon"><a href="#">网站导航 </a></li>
+            </ul>
+        </div>
+    </div>
+    <!--搜索框开始-->
+    <div class="header">
+        <div class="w">
+            <div class="logo"> 
+                <img src="../images/logo.png" alt="">
+            </div>
+            <div class="search">
+                <input type="search" name="" id="" placeholder="华为手机">
+                <a href="search.html"><button></button></a>
+            </div>
+        </div>
+    </div>
+
+    <!--标题开始-->
+    <div class="title w">
+        <h3>全部商品</h3>
+        <div>
+            <span>配送到</span>
+            <select>
+                <option>深圳市</option>
+                <option>广州市</option>
+                <option>东莞市</option>
+                <option>珠海市</option>
+                <option>中山市</option>
+            </select>
+        </div>
+    </div>
+    <!--标题结束-->
+    <!--显示菜单的开始-->
+    <div class="tips w">
+        <ul>
+            <li>
+                <input class="checkall" type="checkbox" />
+                全选
+            </li>
+            <li>商品</li>
+            <li>单价</li>
+            <li>数量</li>
+            <li>小计</li>
+            <li>操作</li>
+        </ul>
+    </div>
+    <!--商品详情展示-->
+    <div class="info w">
+        <ul>
+            <li class="info_1"><input type="checkbox" class="j-checkbox" /> </li>
+            <li class="info_2"> <img src="../images/HUAWEI2.webp" width="80px" /> </li>
+            <li class="info_3"><a>【城星超市】华为p50 pro</a></li>
+            <li class="info_4"><a>颜色：黑色</a> </li>
+            <li class="info_5">￥7488.00</li>
+            <li class="info_6">
+                <button>-</button>
+                <input type="text" name="" id="" value="1" class="itxt"/>
+                <button class="bot">+</button>
+            </li>
+            <li class="info_7">￥7488.00</li>
+            <li class="info_8">
+                <a>删除</a><br />
+                <a>已到我的关注</a>
+            </li>
+        </ul>
+    </div>
+    <div class="info w">
+        <ul>
+            <li class="info_1"><input type="checkbox" class="j-checkbox" /> </li>
+            <li class="info_2"> <img src="../images/HUAWEI2.webp" width="80px" /> </li>
+            <li class="info_3"><a>【城星超市】华为p50 pro</a></li>
+            <li class="info_4"><a>颜色：黑色</a> </li>
+            <li class="info_5">￥7488.00</li>
+            <li class="info_6">
+                <button>-</button>
+                <input class="itxt" type="text" name="" id="" value="1" />
+                <button class="bot">+</button>
+            </li>
+            <li class="info_7">￥7488.00</li>
+            <li class="info_8">
+                <a>删除</a><br />
+                <a>已到我的关注</a>
+            </li>
+        </ul>
+    </div>
+    <div class="info w">
+        <ul>
+            <li class="info_1"><input type="checkbox" class="j-checkbox"/> </li>
+            <li class="info_2"> <img src="../images/HUAWEI2.webp" width="80px" /> </li>
+            <li class="info_3"><a>【城星超市】华为p50 pro</a></li>
+            <li class="info_4"><a>颜色：黑色</a> </li>
+            <li class="info_5">￥7488.00</li>
+            <li class="info_6">
+                <button>-</button>
+                <input class="itxt" type="text" name="" id="" value="1" />
+                <button class="bot">+</button>
+            </li>
+            <li class="info_7">￥7488.00</li>
+            <li class="info_8">
+                <a>删除</a><br />
+                <a>已到我的关注</a>
+            </li>
+        </ul>
+    </div>
+    <!--结算开始-->
+    <div class="balance w">
+        <ul class="balance_ul1">
+            <li>
+                <input class="checkall" type="checkbox" name="" id="" value="" />
+                全选
+            </li>
+            <li><a>删除选中商品</a></li>
+            <li><a>移到我的关注</a></li>
+            <li><a>清除下柜商品</a></li>
+        </ul>
+        <ul class="balance_ul2">
+            <li>已经选择<span class="counts">0</span>件商品</li>
+            <li>总价 <span class="prices">￥0</span></li>
+            <li>
+                <button class="butt">去结算</button>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,479 @@
+/* 声明字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?79wyzv');
+    src: url('fonts/icomoon.eot?79wyzv#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?79wyzv') format('truetype'),
+        url('fonts/icomoon.woff?79wyzv') format('woff'),
+        url('fonts/icomoon.svg?79wyzv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut .w {
+    position: relative;
+}
+
+.local::before {
+    content: '\e906';
+    font-family: 'icomoon';
+    color: red;
+}
+
+.local span {
+    margin-left: 10px;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .w .welcome {
+    position: absolute;
+    left: 345px;
+}
+
+/* 选择所有的偶数的小li */
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+.arrow-icon {
+    position: relative;
+}
+
+.arrow-icon::after {
+    content: '\e900';
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+
+.arrow-icon_1 {
+    width: 372px;
+    height: 104px;
+    font-size: 16px;
+}
+
+.arrow-icon_1_1 {
+    position: absolute;
+    top: 31px;
+    left: -15px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+
+.arrow-icon_1 div {
+    margin-top: 10px;
+}
+
+.arrow-icon:hover .arrow-icon_1 {
+    display: block;
+}
+
+.arrow-icon_2 {
+    width: 141px;
+    height: 104px;
+}
+
+.arrow-icon_2 div {
+    font-size: 8px;
+    height: 20px;
+}
+
+.arrow-icon_2 div span {
+    width: 100px;
+    margin: 0 10px;
+}
+
+.arrow-icon:hover .arrow-icon_2 {
+    display: block;
+}
+
+.arrow-icon_3 {
+    width: 100px;
+    height: 100px;
+}
+
+.arrow-icon_3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.arrow-icon:hover .arrow-icon_3 {
+    display: block;
+}
+
+.arrow-icon_4 {
+    width: 360px;
+    height: 104px;
+}
+
+.arrow-icon_1_2 {
+    position: absolute;
+    top: 31px;
+    left: -274px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+
+.business {
+    float: left;
+    margin-left: 20px;
+}
+
+.customer {
+    float: left;
+    margin-left: 35px;
+}
+
+.business div:nth-child(1),
+.customer div:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.arrow-icon_4 .business div {
+    height: 24px;
+}
+
+.arrow-icon_4 .customer div {
+    height: 24px;
+}
+
+.arrow-icon_4 div span {
+    width: 60px;
+    margin: 0 3px;
+}
+
+.arrow-icon:hover .arrow-icon_4 {
+    display: block;
+}
+
+
+.arrow-icon_5 {
+    width: 460px;
+    height: 104px;
+}
+
+.arrow-icon_1_3 {
+    position: absolute;
+    top: 31px;
+    left: -391px;
+    background-color: #f1f1f1;
+    z-index: 1;
+    display: none;
+}
+
+.Characteristic_theme {
+    float: left;
+    margin-left: 20px;
+}
+
+.More_Selections {
+    float: left;
+    margin-left: 35px;
+}
+
+.Characteristic_theme div:nth-child(1),
+.More_Selections div:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.arrow-icon_5 .Characteristic_theme div {
+    height: 24px;
+}
+
+.arrow-icon_5 .More_Selections div {
+    height: 24px;
+}
+
+.arrow-icon_5 div span {
+    width: 60px;
+    margin: 0 3px;
+}
+
+.arrow-icon:hover .arrow-icon_5 {
+    display: block;
+}
+
+
+/* header 头部制作 */
+.header {
+    position: relative;
+    height: 105px;
+
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    width: 171px;
+    height: 61px;
+
+}
+
+.logo a {
+    display: block;
+    width: 101px;
+    height: 104px;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search::after {
+    content: '\e907';
+    font-family: 'icomoon';
+    color: gray;
+    font-size: 22px;
+    position: absolute;
+    left: 425px;
+}
+
+.search button {
+    float: left;
+    font-family: 'icomoon';
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+
+.shopcar {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.shopcar::before {
+    content: '\e905';
+    font-family: 'icomoon';
+    margin-right: 5px;
+    color: #b1191a;
+}
+
+.shopcar::after {
+    content: '\e900';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+.counts {
+    position: absolute;
+    top: -5px;
+    left: 27px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+
+/* nav模块制作 */
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+
+.nav .navitems {
+    float: left;
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.dropdown .dd {
+    /* display: none; */
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+
+.dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd ul li::after {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    color: #fff;
+    font-family: 'icomoon';
+    content: '\e920';
+    font-size: 14px;
+}
+
+.dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+.navitems ul li {
+    float: left;
+}
+
+.navitems ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+/* 底部模块制作 */
+.footer {
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.mod_service {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service ul li {
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-left: 35px;
+}
+
+.mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    margin-right: 8px;
+}
+
+.service_txt h4 {
+    font-size: 14px;
+}
+
+.service_txt p {
+    font-size: 12px;
+}
+
+.mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}

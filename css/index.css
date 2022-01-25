@@ -1,0 +1,296 @@
+/* 各个标题公共样式 */
+.title_1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.bgcf6f6f6 {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #efefef;
+}
+.border1 {
+    margin-bottom: 5px;
+    border-left: 1px solid #bbbcc0;
+}
+
+.l_nav {
+    position: absolute;
+    top: 136px;
+    left: 50%;
+    transform: translateX(-735px);
+    width: 130px;
+    height: 564px;
+}
+
+
+.l_nav_1 {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(241,242,244);
+    border-bottom: 1px solid rgb(234,235,239);
+    border-left: 1px solid  rgb(234,235,239)
+}
+
+.l_nav_1_1 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-right: 3px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.l_nav_1_1::after {
+    font-family: 'icomoon';
+    content: '\e903';
+    position: absolute;
+    left: 100px;
+}
+
+.l_nav_1_2_1 {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    margin-left: 3px;
+}
+
+
+/* banner模块 */
+.banner {
+    height: 555px;
+    background-color: #fff;
+}
+
+.r_nav {
+    width: 72px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    position: fixed;
+    top: 136px;
+    left: 50%;
+    transform: translateX(620px);
+}
+
+.r_nav_1 {
+    width: 100%;
+    height: 100px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:#ff1e0030;
+}
+
+.r_nav_1 a {
+    display: block;
+}
+
+.r_nav_1:hover {
+    background-color:orange;
+}
+
+.promo {
+    float: left;
+    width: 1200px;
+    height: 564px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo .swiper mySwiper {
+    width: 1200px;
+    height: 420px;
+}
+
+.promo .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.promo .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.promo .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.promo img {
+    width: 1200px;
+    height: 564px;
+}
+
+/* 功能区模块 */
+.column {
+    height: 373px;
+    margin-top: 12px;
+}
+
+.column ul {
+    position: relative;
+}
+
+.column li {
+    position: absolute;
+    height: 320px;
+    width: 230px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+.column li:nth-child(2) {
+    left: 242.5px;
+}
+
+.column li:nth-child(3) {
+    left: 485px;
+}
+
+.column li:nth-child(4) {
+    left: 727.5px;
+}
+
+.column li:nth-child(5) {
+    left: 970px;
+}
+
+.column ul li img {
+    width: 230px;
+    height: 320px;
+}
+.commodity {
+    height: 315px;
+    background-color: #efefef;
+}
+.phone ul {
+    position: relative;
+}
+.phone ul li {
+    position: absolute;
+    background-color: #fff;
+}
+.content {
+    margin: 15px;
+}
+.price {
+    font-size: 16px;
+    color: red;
+}
+.btn1 {
+    background-color: rgba(255, 0, 0, .6);
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.btn2 {
+    background-color: rgba(255, 0, 0, .6);
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.commodity_introduce {
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    overflow : hidden ;
+    text-overflow :el1ipsis;
+    /*弹性伸缩盒子模型显示*/ 
+    display: -webkit-box ;
+    /*限制在一个块元素显示的文本的行数*/
+    -webkit-line-clamp :2;
+    /*设置或检索伸缩盒对象的子元素的排列方式*/
+    -webkit-box-orient : vertical ;
+}
+
+.phone {
+    position: relative;
+}
+.hot {
+    position: absolute;
+    top: -9px;
+    left: 197px;
+    z-index: 1;
+}
+.hot img {
+    width: 43px;
+    height: 27px;
+}
+.new {
+    position: absolute;
+    top: -11px;
+    left: 400px;
+    z-index: 1;
+}
+.new img {
+    width: 31px;
+    height: 31px;
+}
+.HWAWEI .phone ul li:nth-child(1) {
+    width: 190px;
+    height: 270px;
+}
+.HWAWEI .phone ul li:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+}
+.XIAOMI .phone ul li:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+}
+.phone ul li:nth-child(n+1) {
+    width: 190px;
+    height: 268px;
+}
+.phone ul li:nth-child(n+1) img {
+    width: 160px;
+    height: 160px;
+}
+.phone li:nth-child(2) {
+    left: 202px;
+}
+.phone li:nth-child(3) {
+    left: 404px;
+}
+.phone li:nth-child(4) {
+    left: 606px;
+}
+.phone li:nth-child(5) {
+    left: 808px;
+}
+.phone li:nth-child(6) {
+    left: 1010px;
+}

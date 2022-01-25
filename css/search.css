@@ -1,0 +1,137 @@
+/* 声明字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?79wyzv');
+    src:  url('fonts/icomoon.eot?79wyzv#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?79wyzv') format('truetype'),
+      url('fonts/icomoon.woff?79wyzv') format('woff'),
+      url('fonts/icomoon.svg?79wyzv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ffe1d0;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 30px;
+    background-color: #f1f1f1;
+}
+
+.home-icon {
+    font-family: 'icomoon';
+}
+
+.nav_ul1,
+.nav_ul2 li {
+    float: left;
+}
+
+.local::before {
+    content: '\e906';
+    font-family: 'icomoon';
+    color: red;
+}
+.local span {
+    margin-left: 10px;
+}
+
+.nav_ul1 li {
+    float: left;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.nav_ul1 a,
+.nav_ul2 a,
+.nav_ul2 span {
+    font-size: 12px;
+    color: gray;
+}
+
+.nav_ul2 {
+    float: right;
+}
+
+.nav_ul2 li,
+.nav_ul2 span {
+    line-height: 30px;
+    margin-left: 15px;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+.arrow-icon {
+    font-family: 'icomoon';
+}
+
+.search {
+    padding-top: 10px;
+}
+
+.logo div {
+    width: 101px;
+    height: 104px;
+    margin-left: 50%;
+    margin-top: 55px;
+    transform: translateX(-50%);
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+}
+
+.search-box:hover>.search-txt{
+    width: 200px;
+    padding: 0 6px;
+}
+
+.search-box:hover>.search-btn{
+    background: white;
+}
+
+.search-btn{
+    font-family: 'icomoon';
+    font-size: 16px;
+    color: orange;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
